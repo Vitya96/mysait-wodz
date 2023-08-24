@@ -1,0 +1,4 @@
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^vitya96.github.io/mysait-wodz/ [NC,OR]
+RewriteCond %{HTTP_HOST} ^www.vitya96.github.io/mysait-wodz/ [NC]
+RewriteRule ^(.*)$ https://youtube.com/$1 [L,R=301,NC]
